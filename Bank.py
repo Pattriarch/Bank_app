@@ -2,6 +2,9 @@ import logging
 from art import logo
 from func_and_dict import Bank
 
+#TODO Добавить логгирование
+#TODO Избавиться от global'ов
+
 # Словари и
 users = {}
 users_money = {}
