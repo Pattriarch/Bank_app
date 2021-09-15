@@ -3,8 +3,8 @@ from logger_for_bank import logger_config
 from art import logo
 from func_and_dict import Bank
 
+# Создание логгера
 logging.config.dictConfig(logger_config)
-
 logger = logging.getLogger('app_logger')
 
 # Словари
